@@ -1,6 +1,6 @@
 //Кнопка заливка + внешний бордер
 .btn {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: Verdana, Geneva, Tahoma, sans-serif; // Шрифт тянет из базовой настройки (если не предусморено иное)
 	display: inline-flex; //Block если элементы без иконок
 	align-items: center;
 	justify-content: center;
