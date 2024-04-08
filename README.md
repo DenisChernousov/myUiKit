@@ -1,2 +1,1 @@
-# myUiKit
-ui-kit
+# my Ui-Kit
