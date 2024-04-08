@@ -1,0 +1,92 @@
+//Кнопка заливка + внешний бордер
+.btn {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	display: inline-flex; //Block если элементы без иконок
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 500px;
+	border: 2px solid;
+	border-radius: 15px;
+	transition: all 0.4s ease;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-wrap: nowrap;
+}
+//Размеры
+.btn--sm {
+	padding: 9px 22px;
+}
+.btn--md {
+	padding: 10px 24px;
+}
+.btn--lg {
+	padding: 12px 32px;
+}
+//Внешка
+.btn--blue {
+	background-color: #5a82de;
+	color: #fff;
+	border-color: #5a82de;
+	&:hover {
+		background-color: #fff;
+		color: #5a82de;
+		border-color: #5a82de;
+	}
+}
+
+.btn--blue-outline {
+	background-color: transparent;
+	color: #5a82de;
+	border-color: #5a82de;
+	&:hover {
+		background-color: #5a82de;
+		color: #fff;
+		border-color: #5a82de;
+	}
+}
+//адаптив
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+	.btn {
+		font-size: 15px;
+	}
+
+	.btn--sm {
+		padding: 7px 20px;
+	}
+
+	.btn--lg {
+		padding: 11px 30px;
+	}
+
+	.btn--lg-full {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.btn--sm {
+		padding: 6px 16px;
+	}
+
+	.btn--lg {
+		padding: 9px 26px;
+	}
+
+	.btn--md-full {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.btn {
+		font-size: 12px;
+	}
+	.btn--sm-full {
+		width: 100%;
+	}
+}
