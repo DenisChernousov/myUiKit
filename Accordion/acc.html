@@ -1,0 +1,52 @@
+<ul class="accordion">
+	<li class="accordion-item brejnew-vert-ac r-20 js-acc">
+		<input id="s1" class="hide  " type="checkbox">
+		<label for="s1" class="accordion-label  ">Какой процесс сотрудничества с
+			вами?</label>
+		<p class="accordion-child js-acc">Информационный текст либо какойто блок, картинка и
+			т.д.
+		</p>
+	</li>
+	<li class="accordion-item brejnew-vert-ac r-20 js-acc">
+		<input id="s2" class="hide" type="checkbox">
+		<label for="s2" class="accordion-label">У вас есть представитель на территории
+			Китая?</label>
+		<p class="accordion-child">Задайте его нам через форму обратной связи. Наши
+			специалисты свяжутся с вами и проконсультируют по возникшим вопросам. Задайте
+			его нам через форму обратной связи. Наши специалисты свяжутся с вами
+			и проконсультируют по возникшим вопросам. Задайте его нам через форму обратной
+			связи. Наши специалисты свяжутся с вами и проконсультируют по возникшим
+			вопросам.
+		</p>
+	</li>
+	<li class="accordion-item brejnew-vert-ac r-20 js-acc">
+		<input id="s3" class="hide" type="checkbox">
+		<label for="s3" class="accordion-label">Третий блок</label>
+		<p class="accordion-child">Информационный текст либо какойто блок, картинка и т.д.
+		</p>
+	</li>
+
+	<li class="accordion-item brejnew-vert-ac r-20 js-acc">
+		<input id="s4" class="hide" type="checkbox">
+		<label for="s4" class="accordion-label">4 блок</label>
+		<p class="accordion-child">Информационный текст либо какойто блок, картинка и т.д.
+		</p>
+	</li>
+	<li class="accordion-item brejnew-vert-ac r-20 js-acc">
+		<input id="s5" class="hide" type="checkbox">
+		<label for="s5" class="accordion-label">5 блок</label>
+		<p class="accordion-child">Информационный текст либо какойто блок, картинка и т.д.
+		</p>
+	</li>
+</ul>
+
+<!------Если надо изменять внешнй бордер-->
+<script>
+	$('.js-acc').click(function () {
+		if ($(this).css('border-color') === 'rgb(4, 129, 89)') {
+			$(this).css('border-color', '')
+		} else {
+			$(this).css('border-color', 'rgb(4, 129, 89)')
+		}
+	});
+</script>
